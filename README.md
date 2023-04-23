@@ -1,1 +1,11 @@
 # COMP_8720_Advanced_Topics_AI
+
+Project Name - A Comparative Study of Dimensionality Reduction Methods and Clsutering Model for Single cell RNA Seq Data
+Editors: Harbhajan Singh, Navjot Makkar, Manjinder Singh
+
+Abstarct:
+Single-cell RNA sequencing (scRNA-seq) has revolutionized our ability to study cellular diversity and gene expression at the individual cell level. However, the analysis of scRNA-seq data presents unique challenges due to the high-dimensional nature of the data, technical noise, and the need for robust clustering methods [1]. In this research project, we conducted a comprehensive analysis of scRNA-seq data, including data preprocessing involving quality control of cells and genes and normalization of data, dimensionality reduction and clustering. Dimensionality reduction techniques can be broadly classified into linear and non-linear methods, as well as manifold-based techniques [2]. We compared several popular dimensionality reduction techniques, including UMAP, tSNE, LLE, ISOMAP, KPCA, ICA, and Laplacian Eigenmaps. Our results showed that UMAP and tSNE performed well in capturing the underlying structure of the scRNA-seq data, generating visually interpretable and biologically meaningful lower-dimensional representations as they were able to preserve the the local structure of data. We also applied various clustering algorithms, including K-means, Hierarchical clustering, EM algorithm, and Louvain algorithm to the reduced-dimensional data and found that the Louvain algorithm outperformed other techniques for this network data. To evaluate the clustering results, we used Silhouette score and Adjusted Rand index as metrics and observed that they may not always yield consistent results. This research contributes to our understanding of the performance and limitations of various techniques in scRNA-seq data analysis and may aid researchers in making informed choices for their specific research question and experimental designs, ultimately leading to deeper insights into available dimensionality reduction and clustering techniques for scRNA-seq data.
+
+References: 
+[1] https://rna.cd-genomics.com/single-cell-rna-seq.html
+[2] https://www.sciencedirect.com/topics/engineering/dimensionality-reduction-technique
